@@ -1,0 +1,64 @@
+.coni_container {
+  max-width: 1200px;
+  margin: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.coin_description a {
+  color: #2121e9;
+}
+.coin_description a:hover {
+  text-decoration: underline;
+}
+.coni_head {
+  display: flex;
+  align-items: center;
+}
+
+.coin_image {
+  width: 80px;
+}
+.coin_name {
+  margin: 0;
+  font-size: 32px;
+}
+.coin_ticker {
+  text-transform: uppercase;
+  color: #b5b5b5;
+  font-size: 20px;
+  position: relative;
+  bottom: 2px;
+  margin-left: 5px;
+}
+.coin_current {
+  font-size: 18px;
+  padding-bottom: 5px;
+}
+.coin_current span {
+  color: #1fb51f;
+  font-weight: 700;
+}
+.coni_head_left {
+  margin-right: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.coni_head {
+  border-bottom: 1px solid #eaeaea;
+  padding: 20px 0px;
+  margin-bottom: 30px;
+}
+.coin_section_title {
+  margin: 0;
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+.coin_description {
+  margin-bottom: 30px;
+}
+.coin_social_link a {
+  text-decoration: underline;
+  color: #2121e9;
+  margin-right: 10px;
+}

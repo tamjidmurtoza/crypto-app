@@ -1,0 +1,38 @@
+.coin_wrap {
+  display: flex;
+  align-items: center;
+}
+
+.coin_image {
+  height: 18px;
+  width: 18px;
+  margin-right: 10px;
+}
+.coin_wrap h2 {
+  margin: 0;
+  font-size: 14px;
+}
+.coin_symbol {
+  text-transform: uppercase;
+  font-size: 12px;
+  color: #b5b5b5;
+  margin-left: 2px;
+}
+.coin_row {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(5, 1fr);
+  font-size: 14px;
+  padding: 12px 15px;
+  border-bottom: 1px solid #eaeaea;
+  cursor: pointer;
+}
+.coin_row:hover {
+  background-color: rgb(0 0 0 / 3%);
+}
+.red {
+  color: red;
+}
+.green {
+  color: #19e119;
+}
